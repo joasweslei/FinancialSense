@@ -5,7 +5,9 @@ Pipeline ETL em Python com dados do Banco Central (SGS) para análise de indicad
 
 ## 📊 Dashboard
 
-<img width="818" height="433" alt="image" src="https://github.com/user-attachments/assets/854eab50-e0d4-4367-87f5-a8bc54665987" />
+![Visualização do Dashboard](./dashboard_preview.png)
+
+**[🔗 Acesse o dashboard interativo](https://app.powerbi.com/view?r=COLE_AQUI_O_SEU_LINK_PUBLICO)**
 
 
 https://drive.google.com/file/d/1pxgw43wTE5fE9g9FNU1bZ6NNMJHU2mcM/view?usp=drive_link
