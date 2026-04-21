@@ -75,7 +75,7 @@ Fonte: [API SGS — Banco Central do Brasil](https://www.bcb.gov.br/estabilidade
 
 ```bash
 # Clone o repositório
-git clone https://github.com/seu-usuario/FinancialSense.git
+git clone https://github.com/joasweslei/FinancialSense.git
 cd FinancialSense
 
 # Instale as dependências
