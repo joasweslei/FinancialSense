@@ -72,16 +72,6 @@ do FGTS sobre o endividamento, controlando por Selic e IPCA.
 
 **R² = 0.61** — o modelo explica 61% da variação no endividamento.
 
-| Evento | Coeficiente | Efeito |
-|---|---|---|
-| Início Saques FGTS Inativo (2017) | +0.478 | ↑ Aumentou endividamento |
-| Auxílio Emergencial / Pandemia (2020) | +0.393 | ↑ Aumentou endividamento |
-| Saque Extraordinário FGTS (2022) | -0.410 | ↓ Reduziu endividamento |
-
-> Os saques de 2017 e 2020 incentivaram novas dívidas. O saque de 2022 
-> foi usado para quitar dívidas existentes num contexto de juros altos.
-
-
 ## 🚀 Como Executar
 
 ### Pré-requisitos
