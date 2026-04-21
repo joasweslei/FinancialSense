@@ -1,5 +1,5 @@
 # FinancialSense
-Pipeline ETL em Python com dados do Banco Central (SGS) para análise de indicadores macroeconômicos brasileiros — IPCA, Selic, Endividamento e Comprometimento de Renda. Visualizado em Power BI.
+Pipeline ETL em Python com dados do Banco Central (SGS) para análise de indicadores macroeconômicos brasileiros — IPCA, Selic, Endividamento e Comprometimento de Renda. Inclui modelo de Regressão Linear Múltipla para mensurar o impacto das liberações do FGTS no endividamento das famílias. Visualizado em Power BI.
 
 ---
 
@@ -65,6 +65,23 @@ Fonte: [API SGS — Banco Central do Brasil](https://www.bcb.gov.br/estabilidade
 
 ---
 
+## 🤖 Modelo de Machine Learning
+
+Regressão Linear Múltipla para mensurar o efeito causal de cada liberação 
+do FGTS sobre o endividamento, controlando por Selic e IPCA.
+
+**R² = 0.61** — o modelo explica 61% da variação no endividamento.
+
+| Evento | Coeficiente | Efeito |
+|---|---|---|
+| Início Saques FGTS Inativo (2017) | +0.478 | ↑ Aumentou endividamento |
+| Auxílio Emergencial / Pandemia (2020) | +0.393 | ↑ Aumentou endividamento |
+| Saque Extraordinário FGTS (2022) | -0.410 | ↓ Reduziu endividamento |
+
+> Os saques de 2017 e 2020 incentivaram novas dívidas. O saque de 2022 
+> foi usado para quitar dívidas existentes num contexto de juros altos.
+
+
 ## 🚀 Como Executar
 
 ### Pré-requisitos
@@ -100,11 +117,14 @@ O arquivo `data/indicadores_macroeconomicos.parquet` será gerado e pode ser imp
 
 ```
 FinancialSense/
+├── notebooks/
+│   └── analise_impacto_fgts.ipynb  # Análise completa com gráficos
 ├── src/
-│   ├── extractor.py       # Filtro 1: Extração via API do BACEN
-│   └── transformer.py     # Filtro 2 e 3: Transformação e Consolidação
-├── data/                  # Gerado localmente — ignorado pelo Git
-├── main.py                # Orquestrador do pipeline
+│   ├── extractor.py
+│   ├── transformer.py
+│   └── regressao_multipla.py
+├── data/
+├── main.py
 ├── requirements.txt
 ├── .gitignore
 └── README.md
