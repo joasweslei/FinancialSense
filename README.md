@@ -123,4 +123,4 @@ FinancialSense/
 
 ## 📝 Artigo
 
-Leia a análise completa no LinkedIn: [Juros ou Inflação: O que realmente está sufocando a renda das famílias?](#) ← substitua pelo link do post
+Leia a análise completa no LinkedIn: https://www.linkedin.com/posts/joas-baia_juros-ou-infla%C3%A7%C3%A3o-o-que-realmente-est%C3%A1-sufocando-activity-7452155689709436928-erzy?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAAqdHX4BKoWnoyyfYHVPZ0HMjDAxAyIUzHE
