@@ -1,0 +1,7 @@
+requests: Para o Filtro de Extração.
+
+pandas: Para o Filtro de Transformação.
+
+scikit-learn: Para o seu algoritmo de previsão.
+
+pyarrow: Necessário para salvar arquivos no formato Parquet.

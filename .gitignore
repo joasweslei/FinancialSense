@@ -1,0 +1,14 @@
+# Dados gerados localmente
+data/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Power BI
+*.pbix
+
+# Ambiente virtual
+.env
+venv/
