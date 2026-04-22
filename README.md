@@ -13,7 +13,7 @@ Acesse aqui ao dashboard: https://drive.google.com/file/d/1pxgw43wTE5fE9g9FNU1bZ
 
 ## 💡 Insight Principal
 
-A análise revelou que a **inflação acumulada (IPCA) tem correlação de 0,48** com o comprometimento de renda das famílias, enquanto a **Selic apresenta correlação de apenas 0,13** — sugerindo que a pressão inflacionária crônica é o principal driver do endividamento familiar, não o custo do crédito.
+A análise revelou que a **inflação acumulada (IPCA) tem correlação de 0,48** com o comprometimento de renda das famílias, enquanto a **Selic apresenta correlação de apenas 0,13** — sugerindo que a pressão inflacionária crônica é o principal driver do endividamento familiar, quando comparado ao custo do crédito.
 
 ---
 
